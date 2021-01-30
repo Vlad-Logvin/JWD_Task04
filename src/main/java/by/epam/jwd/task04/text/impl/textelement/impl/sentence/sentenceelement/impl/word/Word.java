@@ -11,6 +11,8 @@ public class Word extends SentenceElement  implements Serializable {
     public Word(String word) {
         this.word = word;
     }
+    
+    public Word(){}
 
     public void setWord(String word) {
         this.word = word;
