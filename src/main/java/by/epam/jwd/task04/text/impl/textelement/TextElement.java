@@ -1,5 +1,7 @@
 package by.epam.jwd.task04.text.impl.textelement;
 
-public abstract class TextElement {
+import java.io.Serializable;
+
+public abstract class TextElement  implements Serializable {
     public abstract String getTextElement();
 }

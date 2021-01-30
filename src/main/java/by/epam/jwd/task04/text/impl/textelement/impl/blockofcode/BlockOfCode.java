@@ -2,9 +2,11 @@ package by.epam.jwd.task04.text.impl.textelement.impl.blockofcode;
 
 import by.epam.jwd.task04.text.impl.textelement.TextElement;
 
+import java.io.Serializable;
 import java.util.Objects;
 
-public class BlockOfCode extends TextElement {
+public class BlockOfCode extends TextElement implements Serializable {
+
     private String blockOfCode;
 
     public BlockOfCode(String blockOfCode) {

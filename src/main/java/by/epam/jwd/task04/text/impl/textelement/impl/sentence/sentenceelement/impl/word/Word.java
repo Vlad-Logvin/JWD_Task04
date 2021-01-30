@@ -2,9 +2,10 @@ package by.epam.jwd.task04.text.impl.textelement.impl.sentence.sentenceelement.i
 
 import by.epam.jwd.task04.text.impl.textelement.impl.sentence.sentenceelement.SentenceElement;
 
+import java.io.Serializable;
 import java.util.Objects;
 
-public class Word extends SentenceElement {
+public class Word extends SentenceElement  implements Serializable {
     private String word;
 
     public Word(String word) {

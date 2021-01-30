@@ -3,10 +3,11 @@ package by.epam.jwd.task04.text.impl.textelement.impl.sentence;
 import by.epam.jwd.task04.text.impl.textelement.TextElement;
 import by.epam.jwd.task04.text.impl.textelement.impl.sentence.sentenceelement.SentenceElement;
 
+import java.io.Serializable;
 import java.util.List;
 import java.util.Objects;
 
-public class Sentence extends TextElement {
+public class Sentence extends TextElement  implements Serializable {
     private List<SentenceElement> sentenceElements;
 
     public Sentence(List<SentenceElement> sentenceElements) {
