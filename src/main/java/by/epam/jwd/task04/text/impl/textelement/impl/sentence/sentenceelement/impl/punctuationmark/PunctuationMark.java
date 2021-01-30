@@ -12,6 +12,8 @@ public class PunctuationMark extends SentenceElement implements Serializable {
         this.mark = mark;
     }
 
+    public PunctuationMark(){}
+    
     @Override
     public String getSentenceElement() {
         return mark;
