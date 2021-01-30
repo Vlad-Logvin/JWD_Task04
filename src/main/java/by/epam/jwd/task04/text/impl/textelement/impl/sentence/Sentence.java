@@ -10,6 +10,8 @@ import java.util.Objects;
 public class Sentence extends TextElement  implements Serializable {
     private List<SentenceElement> sentenceElements;
 
+    public Sentence(){}
+    
     public Sentence(List<SentenceElement> sentenceElements) {
         this.sentenceElements = sentenceElements;
     }
