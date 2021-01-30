@@ -8,6 +8,8 @@ import java.util.Objects;
 public class BlockOfCode extends TextElement implements Serializable {
 
     private String blockOfCode;
+    
+    public BlockOfCode(){}
 
     public BlockOfCode(String blockOfCode) {
         this.blockOfCode = blockOfCode;
